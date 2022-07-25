@@ -111,11 +111,11 @@ function createPerson(){
 
 const Abdulfatah = new createPerson()
 
-console.log(Abdulfatah.getName())
+// console.log(Abdulfatah.getName())
 
-Abdulfatah.setName('Abdulfatah')
+// Abdulfatah.setName('Abdulfatah')
 
-console.log(Abdulfatah.getName())
+// console.log(Abdulfatah.getName())
 // console.log(Abdulfatah)
 // Abdulfatah.setName('Abiodun')
 // console.log(Abdulfatah.getName())
@@ -143,3 +143,44 @@ console.log(Abdulfatah.getName())
 
 // console.log(teacher.info())
 
+
+  for(let i = 1; i <= 300; i++){
+    if(i < 101){
+      if(i % 2 !== 0){
+        if(i === 1){
+          console.log('odd number')
+        }
+        console.log(i)
+        console.log(' ')
+  
+      }
+    }
+    else if(i > 100 && i <= 201){
+      if(i % 2 === 0){
+        if(i === 102){
+          console.log('even number')
+        }
+        console.log(i)
+        console.log(' ')
+  
+      }
+  
+    }
+}
+
+for (counter = 201; counter <=300; counter = counter + 1)  
+{
+    testPrime = 0;
+    for (testNum = 1; testNum <=300; testNum = testNum + 1)
+    {
+        var testRes = counter % testNum;
+        if (testRes === 0)
+        {
+        testPrime = testPrime + 1;
+        }
+    }
+    if (testPrime === 2)
+    {
+        console.log(counter);
+    }
+}
