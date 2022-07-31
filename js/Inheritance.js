@@ -1,5 +1,4 @@
 class Animal{
-
     constructor(eye,leg,color){
         this.eye = eye
         this.leg = leg
@@ -8,7 +7,6 @@ class Animal{
     speak(){
         console.log('All animal speaks')
     }
-
     run(){
         console.log('All animal run')
     }
@@ -21,14 +19,11 @@ class Dog extends Animal{
         this.name = name
         this.breed = breed
     }
-
     sing(){
         console.log('dog sings')
     }
 
-
 }
-
 
 class Cat extends Animal{
     constructor(eye,leg,color,name,mouth){

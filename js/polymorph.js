@@ -43,5 +43,3 @@ polymorph.forEach(obj=> {
     console.log(' ')
     // obj.run()
 })
-
-
